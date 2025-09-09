@@ -1,13 +1,25 @@
-<div clas="gameboard">
-<dv i="celeste" class='color celeste left"
-data-color="celeste"></diy>
-<div id='violeta" cass="color violeta
-right" data-color="violeta"><dv>
-<div i="naranja" clas="color naranja left"
-data-color="'naranja'></diy>
-<dv id="verde" class='color verde right"
-data-color="verde'><div>
-<buton iclass="btn-start"
-onclick='empezarJuego)">Empezar a
-jugar!</buton>
-<div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Colores</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Paso 10 -->
+</head>
+<body>
+    <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+    </div>
+
+    <button class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+
+    <script>
+        function empezarJuego() {
+            alert("¡El juego ha comenzado!");
+        }
+    </script>
+</body>
+</html>
